@@ -11,3 +11,10 @@ Para solucionarlo hice:
 
 Ahora voy a probar a hacer este commmit a ver qué pasa, pero espero que esté solucionado.
 
+El anterior commit no mme ha dado problemas. Ahora estoy editando el archivo con el mac y en principio todo está correcto. Los pasos que seguí para editr este archivo fueron:
+1) Accedí a GitHub desde este equipo y copié el enlace de SSH del repositorio
+2) usando la terminal me moví al directorio donde quería clonar el repositorio de GitHub
+3) ejecuté: git clone (pegué el código copiado)
+4) entré en la carpeta y edité el archivo con el editor nano
+5) ahora saldré guardando cambios e intentaré hacer un commit con el atajo commit -am "mensaje", añadiendo al staging area los cambios justo antes de comitear sin necesidad de ejecutar el git add
+
